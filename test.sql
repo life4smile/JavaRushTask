@@ -7,15 +7,15 @@ CREATE TABLE `test`.`user` (
 `IS_ADMIN` BIT(1) NOT NULL DEFAULT false,
 `CREATED_DATE` TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Ivanov', '20', '1');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Petrov', '21', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Smirnov', '22', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Kuznecov', '23', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Popov', '35', '1');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Sokolov', '53', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Novikov', '35', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Egorov', '2', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Orlov', '86', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Makarov', '12', '0');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Romanov', '56', '1');
-INSERT INTO `test`.`user` (`NAME`, `AGE`, `IS_ADMIN`) VALUES ('Sergeev', '53', '0');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Ivanov', '20');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Petrov', '21');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Smirnov', '22');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Kuznecov', '23');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Popov', '35');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Sokolov', '53');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Novikov', '35');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Egorov', '2');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Orlov', '86');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Makarov', '12');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Romanov', '56');
+INSERT INTO `test`.`user` (`NAME`, `AGE`) VALUES ('Sergeev', '53');
