@@ -86,4 +86,11 @@ public class UserController
 
         return "users";
     }
+    
+    @RequestMapping("userdata/{id}")
+    public String userData(@PathVariable("id") int id, Model model){
+        model.addAttribute("user", this.userService.getUserById(id));
+
+        return "userdata";
+    }
 }
